@@ -1,0 +1,18 @@
+[package]
+name = "tbd"
+description = "An object-mapper Rust ORM, query builder and migration toolkit"
+version = "0.1.0"
+authors = ["Katharina Fey <kookie@spacekookie.de>",
+           "Florian Gilcher <florian.gilcher@asquera.de>"]
+
+[workspace]
+members = [
+    "tbd-core",
+    "tbd-migrations",
+    "tbd-models"
+]
+
+[dependencies]
+tbd-core = { path = "tbd-core" }
+tbd-migrations = { path = "tbd-migrations" }
+tbd-models = { path = "tbd-models" }
