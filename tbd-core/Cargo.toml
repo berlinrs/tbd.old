@@ -4,3 +4,6 @@ version = "0.1.0"
 authors = ["Katharina Fey <kookie@spacekookie.de>"]
 
 [dependencies]
+
+# Remove this again soon
+rusqlite = "0.13.0"
