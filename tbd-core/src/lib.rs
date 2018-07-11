@@ -1,7 +1,8 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+//! Shared code and data mapper
+
+extern crate rusqlite;
+
+mod mapping;
+mod db_tool;
+
+pub use mapping::test_this;
