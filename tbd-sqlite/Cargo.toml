@@ -1,0 +1,7 @@
+[package]
+name = "tbd-sqlite"
+version = "0.1.0"
+authors = ["Florian Gilcher <flo@andersground.net>"]
+
+[dependencies]
+rusqlite = "0.13.0"

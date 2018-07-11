@@ -9,10 +9,12 @@ authors = ["Katharina Fey <kookie@spacekookie.de>",
 members = [
     "tbd-core",
     "tbd-migrations",
-    "tbd-models"
+    "tbd-models",
+    "tbd-sqlite",
 ]
 
 [dependencies]
 tbd-core = { path = "tbd-core" }
 tbd-migrations = { path = "tbd-migrations" }
 tbd-models = { path = "tbd-models" }
+tbd-sqlite = { path = "tbd-sqlite" }
