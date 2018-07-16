@@ -1,8 +1,8 @@
 //! Shared code and data mapper
 
-extern crate rusqlite;
+extern crate sqlite;
+extern crate futures;
 
-mod mapping;
-mod db_tool;
+pub mod repository;
 
-pub use mapping::test_this;
+//pub use mapping::test_this;

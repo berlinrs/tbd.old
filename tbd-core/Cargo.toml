@@ -6,4 +6,5 @@ authors = ["Katharina Fey <kookie@spacekookie.de>"]
 [dependencies]
 
 # Remove this again soon
-rusqlite = "0.13.0"
+sqlite = "0.23.9"
+futures = "0.1"
